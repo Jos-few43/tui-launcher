@@ -1,0 +1,33 @@
+{
+  "name": "tui-launcher",
+  "module": "src/main.tsx",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/main.tsx",
+    "start": "bun run src/main.tsx"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/bun": "latest",
+    "@types/js-yaml": "^4.0.9",
+    "@types/marked": "^6.0.0",
+    "@types/react": "^19.2.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.1.67",
+    "@opentui/react": "^0.1.67",
+    "axios": "^1.13.2",
+    "better-sqlite3": "^12.5.0",
+    "chokidar": "^5.0.0",
+    "date-fns": "^4.1.0",
+    "fuse.js": "^7.1.0",
+    "js-yaml": "^4.1.1",
+    "marked": "^17.0.1",
+    "react": "^19.2.3",
+    "zustand": "^5.0.9"
+  }
+}
