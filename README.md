@@ -2,6 +2,42 @@
 
 A customizable terminal user interface (TUI) launcher and discovery platform for organizing and launching TUI applications. Built with TypeScript, Bun, and OpenTUI.
 
+## Demo
+
+```
+┌─────────────────────── TUI Launcher ───────────────────────┐
+│                                                             │
+│  Tabs: [Installed] [Discover] [Categories] [★Favorites]    │
+│        [🎲Showcase*] [Settings] [Search]                    │
+│                                                             │
+│  ┌────────────────── Showcase ──────────────────┐          │
+│  │                                               │          │
+│  │     🎬  fftpeg - Modern TUI for ffmpeg       │          │
+│  │                                               │          │
+│  │     A powerful TUI for video processing      │          │
+│  │     with interactive file browser and        │          │
+│  │     batch operations support.                │          │
+│  │                                               │          │
+│  │     Category: Media                          │          │
+│  │     Command: fftpeg                          │          │
+│  │     Status: ✓ Installed                      │          │
+│  │                                               │          │
+│  └───────────────────────────────────────────────┘          │
+│                                                             │
+│  [ Launch/View ]  [ Skip (s) ]  [ ★ Favorite (f) ]        │
+│                                                             │
+│  Press 1-7 for tabs • q to quit • ? for help              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Features in Action:**
+- 🎲 Random TUI discovery on startup with rich metadata
+- ⌨️  Full keyboard control (no mouse required)
+- 📂 7 pre-configured TUI categories
+- ⭐ Favorites system with hotkeys
+- 📊 SQLite-backed TUI registry
+- 🚀 One-key launching of any TUI
+
 ## Overview
 
 TUI Launcher is a "store" and launcher for TUI applications that makes discovering and organizing terminal apps fun and accessible. It provides a tab-based interface for browsing, categorizing, and launching TUIs with keyboard-driven navigation.
